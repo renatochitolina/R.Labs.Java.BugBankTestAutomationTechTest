@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{title}</title>
+    <style>
+        body { font-family: "Gill Sans", sans-serif; margin: 20px; }
+        .report { width: 70%; margin: auto; }
+        .step { background-color: #f0f0f0; margin-bottom: 20px; padding: 10px; border-radius: 5px; }
+        .record { display: flex; align-items: center; margin-bottom: 10px; }
+        .record img {cursor: pointer; max-width: 100px; max-height: 60px; margin-top: 20px; margin-right: 12px; }
+        .record-details { flex-grow: 1; }
+        .record-details p { margin-bottom: 5px; }
+        .record-details .label { font-size: 11px; padding: 5px; border-radius: 14px; margin-left: -2px; }
+        .record-details .label.success { background-color: darkgreen; color: white; }
+        .record-details .label.fail { background-color: darkred; color: white; }
+    </style>
+  </head>
+  <body>
+    <div class="report">
+      {report}
+    </div>
+  </body>
+</html>
